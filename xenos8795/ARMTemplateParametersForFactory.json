@@ -10,6 +10,27 @@
 		},
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
+		},
+		"XenosAzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"XenosAzureDatabricks_accessToken": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"storageLinkedService_connectionString": {
+			"value": ""
+		},
+		"storageLinkedService1_connectionString": {
+			"value": ""
+		},
+		"storageLinkedService2_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/1387c4c3-4257-46f8-b8b8-ef22247254fe/resourceGroups/xenos/providers/Microsoft.Storage/storageAccounts/xenosstorageacc"
 		}
 	}
 }
