@@ -1,0 +1,35 @@
+{
+	"name": "pipeline4",
+	"properties": {
+		"activities": [
+			{
+				"name": "Jar1",
+				"type": "DatabricksSparkJar",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"mainClassName": "org.apache.spark.examples.SparkPi",
+					"parameters": [],
+					"libraries": [
+						{
+							"jar": "dbfs:/docs/SparkPi-assembly-0.1.jar"
+						}
+					]
+				},
+				"linkedServiceName": {
+					"referenceName": "XenosAzureDatabricks",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

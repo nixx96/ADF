@@ -1,0 +1,12 @@
+{
+	"name": "ds_in1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storageLinkedService2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzurePostgreSqlTable"
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

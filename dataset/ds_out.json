@@ -1,0 +1,12 @@
+{
+	"name": "ds_out",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storageLinkedService1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzurePostgreSqlTable"
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
